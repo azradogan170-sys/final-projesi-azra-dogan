@@ -1,0 +1,6 @@
+Marka,Talep_Skoru
+Chery,95
+Nissan,85
+Hyundai,80
+Dacia,75
+Kia,70
