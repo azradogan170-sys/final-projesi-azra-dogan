@@ -52,7 +52,8 @@ if st.button("💰 Fiyat Tahmini Yap", type="primary"):
                 
         girdi_encoded = girdi_encoded[model_sutunlari]
         
-        tahmin_edilen_fiyat = yapay_zeka.predict(girdi_encoded)[0]
+       
+        tahmin_edilen_fiyat = yapay_zeka.predict(girdi_encoded)[0] / 10
         
         st.success(f"### 🎯 Yapay Zekâ Pazar Tahmini: {tahmin_edilen_fiyat:,.2f} TL")
         st.caption("Not: Bu fiyat regresyon modelinin %72.20 başarı oranıyla pazar verilerinden öğrendiği tahmini değerdir.")
