@@ -25,7 +25,10 @@ Projeyi bilgisayarda yerel olarak çalıştırmak için öncelikle bu kod deposu
 Uygulamanın kullanımı oldukça basittir: Web sitesi açıldığında ekrandaki menülerden aracın markası, üretim yılı, kilometresi ve piyasadaki talep skoru seçilir. "Fiyat Tahmini Yap" butonuna basıldığında yapay zekâ modeli arka planda hesaplama yaparak Türkiye piyasasına uygun tahmini değeri ekrana yansıtır.
 
 ## Örnek Ekran Görüntüleri
-
+<img width="998" height="799" alt="image" src="https://github.com/user-attachments/assets/62ca3958-a136-42e8-8d79-c5975f95392e" />
+<img width="909" height="261" alt="image" src="https://github.com/user-attachments/assets/ff309f65-7e0e-4562-aaf4-87977c79a39a" />
+<img width="974" height="786" alt="image" src="https://github.com/user-attachments/assets/bf429886-618a-429f-9561-bfc320ea0ad4" />
+<img width="924" height="247" alt="image" src="https://github.com/user-attachments/assets/ba8bfa1b-2322-4c1d-bdb5-af17ee3915ae" />
 
 ## Test Sonuçları ve Başarı Oranı
 Modelin pazar verilerini öğrenme ve tahmin etme başarı oranı (R2 Skoru) %72.20 olarak ölçülmüştür. Canlı site üzerinde yapılan testlerde (örneğin 2022 model temiz bir Kia veya 2020 model düşük kilometreli bir Nissan girildiğinde) yapay zekanın Türkiye ikinci el SUV piyasası dinamiklerine oldukça yakın ve tutarlı fiyat tahminleri ürettiği doğrulanmıştır.
