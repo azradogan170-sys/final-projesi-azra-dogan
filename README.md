@@ -28,7 +28,7 @@ Uygulamanın kullanımı oldukça basittir: Web sitesi açıldığında ekrandak
 
 
 ## Test Sonuçları ve Başarı Oranı
-Modelin pazar verilerini öğrenme ve tahmin etme başarı oranı (R2 Skoru) %72.20 olarak ölçülmüştür. Canlı site üzerinde yapılan testlerde (örneğin 2022 model temiz bir Kia veya 2020 model düşük kilometreli bir Nissan girildiğinde) yapay zekanın Türkiye ikinci el SUV piyasası gerçeklerine çok yakın ve mantıklı fiyat tahminleri ürettiği doğrulanmıştır.
+Modelin pazar verilerini öğrenme ve tahmin etme başarı oranı (R2 Skoru) %72.20 olarak ölçülmüştür. Canlı site üzerinde yapılan testlerde (örneğin 2022 model temiz bir Kia veya 2020 model düşük kilometreli bir Nissan girildiğinde) yapay zekanın Türkiye ikinci el SUV piyasası dinamiklerine oldukça yakın ve tutarlı fiyat tahminleri ürettiği doğrulanmıştır.
 
 ## Bilinen Sınırlılıklar ve Gelecekte Yapılabilecek Geliştirmeler
 Modelimiz şu an için sadece veri setinde yer alan belirli SUV markaları üzerinden tahmin yürütebilmektedir. Ayrıca araçların fiyatını doğrudan etkileyen kaza durumu, boyalı parça sayısı, hasar kaydı veya donanım paketi gibi detaylı bilgiler ham veri setinde bulunmadığı için modele dahil edilememiştir. 
@@ -36,4 +36,4 @@ Modelimiz şu an için sadece veri setinde yer alan belirli SUV markaları üzer
 Gelecekte bu tarz hasar ve donanım bilgileri de veri setine eklenerek modelin tahmin gücü artırılabilir. Ayrıca Lineer Regresyon algoritması yerine daha gelişmiş yapay zekâ algoritmaları denenerek başarı oranı daha da yukarı taşınabilir.
 
 ## Yapay Zekâ Araçlarının Kullanıldığı Aşamalar
-Projenin Google Colab üzerindeki veri ön işleme aşamalarında, Streamlit arayüz kodlarının yazımında ve özellikle siteyi canlıya alırken karşılaşılan kütüphane bağımlılığı hatalarının hızlı bir şekilde çözülmesinde üretken yapay zekâ araçlarından (Gemini) teknik mentorluk ve kod optimizasyonu desteği alınmıştır.
+Projenin Google Colab ortamındaki veri ön işleme süreçlerinde, Streamlit arayüz kodlarının yazımında ve uygulamayı canlı ortama aktarırken karşılaşılan kütüphane uyuşmazlığı sorunlarının giderilmesinde, yapay zekâ tabanlı kodlama asistanlarından teknik destek ve kod düzeltme yardımı alınmıştır.
