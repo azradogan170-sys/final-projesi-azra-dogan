@@ -2,7 +2,7 @@
 
 ## Proje Bağlantıları
 * **Canlı Web Sitesi Linki:** https://final-projesi-azra-dogan-ixuwtzkyt6byqhjxxqc4xm.streamlit.app/
-* **Proje Tanıtım ve Model Çalışma Videosu:** 
+* **Proje Tanıtım ve Model Çalışma Videosu:** https://www.loom.com/share/54fdee9118404e388b8b0403cee4dec3
 
 ## Problem Tanımı ve Hedef Kullanıcı
 İkinci el araç piyasasında, özellikle SUV model araçlarda fiyatlar marka, model yılı, kilometre ve piyasadaki talep durumu gibi birçok değişkene göre anlık olarak değişmektedir. Bu durum hem alıcılar hem de satıcılar için adil bir pazar fiyatı belirlemeyi zorlaştırmaktadır. 
